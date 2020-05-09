@@ -1,0 +1,18 @@
+ol {
+  list-style-type: none;
+}
+header {
+  background: tomato;
+}
+.title {
+  color: lawngreen;
+}
+.main {
+  background: tan;
+}
+footer {
+  background: orange;
+}
+.subtitle {
+  background: palegoldenrod;
+}
