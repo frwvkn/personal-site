@@ -1,20 +1,41 @@
 body {
-  background-image: url("./background-image.png");
   background-repeat: no-repeat;
   background-size: cover;
+  color: black;
+  margin: 0;
+}
+body.index {
+  background-image: url("./images/background-image.png");
+}
+body.programming {
+  background-image: url("./images/wallpaper.jpg");
+}
+body.music {
+  background-image: url("./images/DSC_000008.JPG");
+  color: aliceblue;
+}
+body.hangglider {
+  background-image: url("./images/IMG_20200315_130726のコピー.jpg");
+}
+body.eeic {
+  background-image: url("./images/wallpaper.jpg");
 }
 ul.top {
-  list-style-type: none;
+  overflow: hidden;
+	padding:0px;
+	list-style-type: none;
+	margin:auto;
 }
 ul.top li {
   float: left;
+  font-size: 16px;
 }
 ul.top li a{
   display: block;
-  padding:14px 16px;
-  text-align: center;
-  text-decoration: none;
-  color: white;
+	padding: 14px 16px;
+	text-align: center;
+	text-decoration: none;
+	color: white;
 }
 ul.top li a:hover {
   background-color: gray;
@@ -27,9 +48,11 @@ ul.top li a.active {
 		float: none;
 	}
 }
-header {
-  text-align:center;
-	padding-bottom:9%;
+#menu {
+  width:100%; 
+  /*text-align:center;*/
+  padding-bottom:5%;
+  padding-left: 0%;
   margin:auto;
 }
 header.title {
@@ -37,4 +60,10 @@ header.title {
 }
 .subtitle {
   background: palegoldenrod;
+}
+ul.languages {
+  list-style-type: disc;
+}
+ul.genre {
+  list-style-type: disc;
 }
