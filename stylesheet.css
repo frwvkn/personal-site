@@ -26,6 +26,9 @@ a {
   text-decoration: none;
   color: white;
 }
+a:hover {
+  color: blue;
+}
 ul.top {
   overflow: hidden;
 	padding:0px;
