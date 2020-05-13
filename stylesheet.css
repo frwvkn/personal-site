@@ -9,6 +9,7 @@ body.index {
 }
 body.programming {
   background-image: url("./images/wallpaper.jpg");
+  color: aliceblue;
 }
 body.music {
   background-image: url("./images/DSC_000008.JPG");
@@ -19,6 +20,11 @@ body.hangglider {
 }
 body.eeic {
   background-image: url("./images/wallpaper.jpg");
+  color: aliceblue;
+}
+a {
+  text-decoration: none;
+  color: white;
 }
 ul.top {
   overflow: hidden;
