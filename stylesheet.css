@@ -4,21 +4,21 @@ body {
   color: black;
   margin: 0;
 }
-body.index {
+.index {
   background-image: url("./images/background-image.png");
 }
-body.programming {
+.programming {
   background-image: url("./images/wallpaper.jpg");
   color: aliceblue;
 }
-body.music {
+.music {
   background-image: url("./images/DSC_000008.JPG");
   color: aliceblue;
 }
-body.hangglider {
-  background-image: url("./images/hangglider.jpg");
+.hangglider {
+  background-image: url("./images/hangglider-min.jpg");
 }
-body.eeic {
+.eeic {
   background-image: url("./images/wallpaper.jpg");
   color: aliceblue;
 }
@@ -29,13 +29,13 @@ a {
 a:hover {
   color: blue;
 }
-ul.top {
+.top {
   overflow: hidden;
 	padding:0px;
 	list-style-type: none;
 	margin:auto;
 }
-ul.top li {
+.top li {
   float: left;
   font-size: 16px;
 }
@@ -64,9 +64,7 @@ ul.top li a.active {
   padding-left: 0%;
   margin:auto;
 }
-header.title {
-  color: lawngreen;
-}
+
 .subtitle {
   background: palegoldenrod;
 }
