@@ -5,18 +5,18 @@ body {
   margin: 0;
 }
 .index {
-  background-image: url("./images/background-image.png");
+  background-image: url("./images/background-image.jpg");
 }
 .programming {
   background-image: url("./images/wallpaper.jpg");
   color: aliceblue;
 }
 .music {
-  background-image: url("./images/DSC_000008.JPG");
+  background-image: url("./images/DSC_000008.jpg");
   color: aliceblue;
 }
 .hangglider {
-  background-image: url("./images/hangglider-min.jpg");
+  background-image: url("./images/hangglider.jpg");
 }
 .eeic {
   background-image: url("./images/wallpaper.jpg");
